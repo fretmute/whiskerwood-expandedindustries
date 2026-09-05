@@ -2,7 +2,7 @@ Key | Value
 
 # Settings
 expandedindustries.setting.enable.name | Expanded Industries - Enable
-expandedindustries.setting.enable.description | Enables or disables the modification of industry recipes. Requires a restart to change.
+expandedindustries.setting.enable.description | Enables or disables the Expanded Industries mod. Requires a restart to change.
 expandedindustries.setting.requireunlocks.name | Expanded Industries - Require Tech Unlocks
 expandedindustries.setting.requireunlocks.description | If enabled, research is required to unlock custom recipes.
 

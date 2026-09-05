@@ -7,7 +7,7 @@ A mod for customizing industry recipes and production.
 - Provides the ability to add or edit recipes available at each industry.
 - Provides the ability to add or edit tech unlocks.
 - Edit files in `<YourSteamDirectory>\steamapps\workshop\content\2489330\3796266373` to customize.
-  - Note: Use `FileConfig,txt` to specify custom file names for config files. Config file names are versioned by default, so any future changes will create new files, and you can merge edits from your previous files or configure it to ignore the new ones altogether.
+  - Note: Use `FileConfig.txt` to specify custom file names for config files. Config file names are versioned by default, so any future changes will create new files, and you can merge edits from your previous files or configure it to ignore the new ones altogether.
 
   - You can specify alternate filenames for configuration files on a per file basis.
   - `FileConfig.txt` itself will still revert after updates, so be aware that future patches may require some intervention.
