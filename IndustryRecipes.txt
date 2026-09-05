@@ -1,0 +1,80 @@
+# Do not remove the column description line, it must be the first line of data.
+Name|recipeTime|powerPerWorker|outputMode|in1|inCt1|in2|inCt2|in3|inCt3|in4|inCt4|out1|outCt1|out2|outCt2|out3|outCt3|RequiredUnlock|pollutionPerSecond|hideUnlessUnlocked
+
+# Custom recipes
+expandedindustries.recipe.charcoalfurnacecharcoal|89|0|None|wood|2|None|0|None|0|None|0|expandedindustries.resource.charcoal|1|None|0|None|0|expandedindustries.unlock.charcoalfurnacecharcoal|40000|false
+expandedindustries.recipe.charcoaltofuel|89|0|None|expandedindustries.resource.charcoal|1|None|0|None|0|None|0|fuel|9|None|0|None|0|expandedindustries.unlock.charcoaltofuel|40000|false
+#expandedindustries.recipe.siftertablesalt|144|0|None|fluid_water|52|None|0|None|0|None|0|tablesalt|1|None|0|None|0|expandedindustries.unlock.siftertablesalt|0|false
+expandedindustries.recipe.sifterseasalt|99|0|None|fluid_water|52|None|0|None|0|None|0|expandedindustries.resource.seasalt|2|None|0|None|0|expandedindustries.unlock.sifterseasalt|0|false
+expandedindustries.recipe.seatotablesalt|144|0|None|expandedindustries.resource.seasalt|3|None|0|None|0|None|0|tablesalt|2|None|0|None|0|expandedindustries.unlock.seatotablesalt|0|false
+expandedindustries.recipe.hardtack|108|0|None|flour|2|fuel|1|tablesalt|1|None|0|basicRations|5|None|0|None|0|expandedindustries.unlock.hardtack|1000|false
+
+# field count: 21
+
+## Vanilla recipes follow. These can be uncommented (by removing the leading `#`) to inject the edited version.
+# recipe.lumbermill|233|0|None|wood|1|None|0|None|0|None|0|planks|5|None|0|None|0|None|0|false|false|None
+# recipe.fishingdock|21|0|None|None|0|None|0|None|0|None|0|rawfish|1|None|0|None|0|None|0|false|false|None
+# recipe.brickmaker|233|0|None|stone|3|None|0|None|0|None|0|bricks|2|None|0|None|0|None|0|false|false|None
+# recipe.fishery|144|0|None|rawfish|3|fuel|1|None|0|None|0|smokedfish|5|None|0|None|0|unlock.fishery|20000|false|false|None
+# recipe.stewery|144|0|None|berries|2|fuel|1|fluid_water|5|None|0|berrysoup|5|None|0|None|0|unlock.stewery|20000|false|false|None
+# recipe.finekitchen|144|0|None|smokedfish|1|stew|1|spice|1|None|0|simplemeal|5|None|0|None|0|None|0|false|false|None
+# recipe.charcoalfurnace|89|0|None|wood|2|None|0|None|0|None|0|fuel|3|None|0|None|0|unlock.charcoalfurnace|40000|false|false|None
+# recipe.smelter|233|0|None|ironore|1|fuel|2|None|0|None|0|ironbar|5|None|0|None|0|unlock.recipe.ironsmelting|60000|false|false|None
+# recipe.toolmaker|144|0|None|ironbar|1|wood|1|None|0|None|0|handTool|3|None|0|None|0|None|0|false|false|None
+# recipe.waterpump|8|0|None|None|0|None|0|None|0|None|0|fluid_water|5|None|0|None|0|None|0|false|false|None
+# recipe.coalprocessor|377|0|None|coal|1|fluid_water|5|None|0|None|0|fuel|21|None|0|None|0|unlock.coalsifter|20000|false|false|None
+# recipe.boiler|21|0|None|fuel|1|None|0|None|0|None|0|fluid_steam|89|None|0|None|0|None|20000|false|false|None
+# recipe.furnituremaker|233|0|None|planks|3|nails|1|None|0|None|0|furniture|3|None|0|None|0|unlock.furniture|0|false|false|None
+# recipe.coppersmelter|144|0|None|copperore|1|fuel|1|None|0|None|0|copperbar|5|None|0|None|0|unlock.oresmelter|60000|false|false|None
+# recipe.bronzesmelter|144|0|None|copperore|1|tinore|1|fuel|1|None|0|bronze|5|None|0|None|0|unlock.recipe.bronzesmelter|60000|false|false|None
+# recipe.nailor|144|0|None|bronze|1|None|0|None|0|None|0|nails|3|None|0|None|0|unlock.nails|0|false|false|None
+# recipe.tailor|144|0|None|Fabric|3|None|0|None|0|None|0|clothes|2|None|0|None|0|unlock.textiles|0|false|false|None
+# recipe.bakery|144|0|None|flour|2|fuel|1|None|0|None|0|Bread|5|None|0|None|0|unlock.bakery|10000|false|false|None
+# recipe.weaver|233|0|None|thread|3|None|0|None|0|None|0|Fabric|3|None|0|None|0|unlock.fabric|0|false|false|None
+# recipe.fishoil|233|0|None|rawfish|1|fluid_steam|2|None|0|None|0|oil|3|None|0|None|0|unlock.oilpress|0|false|false|None
+# recipe.wheatflour|89|0|None|wheat|1|None|0|None|0|None|0|flour|5|None|0|None|0|unlock.mill|0|false|false|None
+# recipe.trinkets|144|0|None|planks|1|Fabric|1|None|0|None|0|trinkets|3|None|0|None|0|None|0|false|false|None
+# recipe.potashfertilizer|144|0|None|potash|1|fluid_water|13|None|0|None|0|fertilizer|5|None|0|None|0|unlock.potashProcessing|20000|false|false|None
+# recipe.fishskewers|144|0|None|rawfish|2|mushroom|1|fuel|1|None|0|fishskewers|5|None|0|None|0|unlock.fishskewers|20000|false|false|None
+# recipe.mushroomstew|144|0|None|mushroom|1|flour|2|fuel|1|fluid_water|5|stew|5|None|0|None|0|unlock.mushroomstew|20000|false|false|None
+# recipe.heartymeal|144|0|None|Bread|1|fishskewers|1|spice|1|None|0|heartymeal|5|None|0|None|0|None|0|false|false|None
+# recipe.fancymeal|144|0|None|berrysoup|1|jampastry|1|spice|1|None|0|platter|5|None|0|None|0|None|0|false|false|None
+# recipe.jampastry|144|0|None|flour|3|berries|1|fuel|1|None|0|jampastry|5|None|0|None|0|unlock.jampastry|20000|false|false|None
+# recipe.rope|144|0|None|flax|2|None|0|None|0|None|0|rope|3|None|0|None|0|unlock.flaxspinner|0|false|false|None
+# recipe.goldsmelter|377|0|None|goldore|1|fuel|1|None|0|None|0|goldbar|1|None|0|None|0|unlock.recipe.goldsmelter|60000|false|false|None
+# recipe.cannedberries|89|0|None|berries|1|bronze|1|None|0|None|0|cannedfood|3|None|0|None|0|None|0|false|false|None
+# recipe.cannedfish|89|0|None|rawfish|1|bronze|1|None|0|None|0|cannedfood|3|None|0|None|0|None|0|false|false|None
+# recipe.cannedmushroom|89|0|None|mushroom|1|bronze|1|None|0|None|0|cannedfood|3|None|0|None|0|None|0|false|false|None
+# recipe.steelsmelter|233|0|None|ironore|1|coal|1|fuel|2|None|0|steel|5|None|0|None|0|unlock.recipe.steelsmelting|60000|false|false|None
+# recipe.teaset|55|0|None|bronze|1|None|0|None|0|None|0|teaset|2|None|0|None|0|unlock.recipe.bronzesmelter|0|false|false|None
+# recipe.steelplates|377|0|None|steel|1|None|0|None|0|None|0|steelplates|3|None|0|None|0|unlock.steelplates|0|false|false|None
+# recipe.cannonframe|233|0|None|planks|3|nails|3|None|0|None|0|cannonframes|5|None|0|None|0|unlock.cannonframes|0|true|false|None
+# recipe.bedding|144|0|None|Fabric|3|None|0|None|0|None|0|bedding|3|None|0|None|0|unlock.bedding|0|false|false|None
+# recipe.soap|233|0|None|oil|2|potash|1|fluid_water|13|None|0|soap|5|None|0|None|0|unlock.soap|0|false|false|None
+# recipe.medicine|144|0|None|salinesolution|3|mushroom|1|None|0|None|0|medicine|2|None|0|None|0|unlock.apothecary|0|false|false|None
+# recipe.salinesolution|233|0|None|rocksalt|1|fluid_water|5|None|0|None|0|salinesolution|3|None|0|None|0|unlock.laboratory|0|false|false|None
+# recipe.sail|233|0|None|Fabric|5|rope|3|None|0|None|0|sail|5|None|0|None|0|None|0|false|false|None
+# recipe.salt|144|0|None|rocksalt|1|fluid_water|1|None|0|None|0|tablesalt|3|None|0|None|0|unlock.tablesalt|20000|false|false|None
+# recipe.bronzecannon|377|0|None|bronze|5|cannonframes|5|fuel|2|None|0|bronzecannons|8|None|0|None|0|unlock.bronzecannons|20000|true|false|None
+# recipe.steelcannon|610|0|None|steel|5|cannonframes|5|fuel|4|None|0|steelcannons|8|None|0|None|0|unlock.steelcannons|30000|true|false|None
+# recipe.machinery|144|0|None|steel|3|bronze|2|oil|2|None|0|tools|2|None|0|None|0|unlock.machinist|0|false|false|None
+# recipe.fishingnet|377|0|None|rope|3|None|0|None|0|None|0|fishingnet|5|None|0|None|0|unlock.netter|0|false|false|None
+# recipe.tea|55|0|None|tealeaves|1|fuel|1|None|0|None|0|tea|5|None|0|None|0|unlock.tearoaster|10000|false|false|None
+# recipe.finetea|89|0|None|tealeaves|2|spice|1|fuel|1|None|0|finetea|8|None|0|None|0|unlock.finetea|10000|false|false|None
+# recipe.cotton|144|0|None|cotton|1|None|0|None|0|None|0|thread|8|None|0|None|0|unlock.cottongin|0|false|false|None
+# recipe.spice|144|0|None|peppers|1|None|0|None|0|None|0|spice|3|None|0|None|0|unlock.spicegrinder|0|false|false|None
+# recipe.flax|89|0|None|flax|2|None|0|None|0|None|0|thread|3|None|0|None|0|unlock.fabric|0|false|false|None
+# recipe.simpleclothes|233|0|None|flax|1|None|0|None|0|None|0|simpleclothes|2|None|0|None|0|unlock.weaver|0|false|false|None
+# recipe.vises|377|0|None|planks|2|None|0|None|0|None|0|vises|3|None|0|None|0|unlock.furnituremaker|0|false|false|None
+# recipe.scissors|144|0|None|copperbar|2|None|0|None|0|None|0|scissors|3|None|0|None|0|unlock.toolmaker|0|false|false|None
+# recipe.firetongs|144|0|None|bronze|2|None|0|None|0|None|0|firetongs|3|None|0|None|0|unlock.firetongs|0|false|false|None
+# recipe.ironpots|233|0|None|ironbar|2|None|0|None|0|None|0|ironpots|3|None|0|None|0|unlock.blacksmith|0|false|false|None
+# recipe.precisionscales|233|0|None|steel|2|None|0|None|0|None|0|precisionscales|3|None|0|None|0|unlock.precisionscales|0|false|false|None
+# recipe.mushroom|0|0|None|None|0|None|0|None|0|None|0|mushroom|1|None|0|None|0|None|0|false|false|None
+# recipe.wheat|0|0|None|None|0|None|0|None|0|None|0|wheat|1|None|0|None|0|None|0|false|false|None
+# recipe.tealeaves|0|0|None|None|0|None|0|None|0|None|0|tealeaves|1|None|0|None|0|None|0|false|false|None
+# recipe.peppers|0|0|None|None|0|None|0|None|0|None|0|peppers|1|None|0|None|0|None|0|false|false|None
+# recipe.guanofertilizer|233|0|None|guano|3|fluid_water|25|None|0|None|0|fertilizer|10|None|0|None|0|unlock.guanofertilizer|15000|false|false|None
+# recipe.stone_cannonball|89|0|None|stone|1|None|0|None|0|None|0|stone_cannonball|4|None|0|None|0|unlock.recipe.stone_cannonball|0|false|false|None
+# recipe.bronze_cannonball|144|0|None|bronze|1|None|0|None|0|None|0|bronze_cannonball|4|None|0|None|0|unlock.recipe.bronze_cannonball|0|false|false|None
+# recipe.iron_cannonball|233|0|None|ironbar|1|None|0|None|0|None|0|iron_cannonball|4|None|0|None|0|unlock.recipe.iron_cannonball|0|false|false|None

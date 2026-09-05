@@ -1,0 +1,7 @@
+Name|stringKey|descriptionKey|Category|subCategory|Icon|haulMesh|stackingHeight|storageVisualWidth|isNonPhysical|baseTradeValue|questItem|SortOrder|oceanFishNutrients
+
+expandedindustries.resource.charcoal|expandedindustries.resource.charcoal.name|expandedindustries.resource.charcoal.desc|drygoods|subcat.refined|/Script/Engine.Texture2D'/Game/Mods/ExpandedIndustries/Textures/charcoal_91_t.charcoal_91_t'|/Script/Engine.StaticMesh'/Game/Assets/Meshes/Kitbash_new/SM_Crate/SM_Crate.SM_Crate'|6|1|False|0|False|21|-2
+
+expandedindustries.resource.seasalt|expandedindustries.resource.seasalt.name|expandedindustries.resource.seasalt.desc|drygoods|subcat.refined|/Script/Engine.Texture2D'/Game/Mods/ExpandedIndustries/Textures/Tex_reagent_white.Tex_reagent_white'|/Script/Engine.StaticMesh'/Game/Assets/Meshes/Kitbash_new/SM_Crate/SM_Crate.SM_Crate'|6|1|False|0|False|22|-2
+
+# field count: 14

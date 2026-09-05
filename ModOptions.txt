@@ -1,0 +1,2 @@
+OptionId | DisplayName | Description | ValuesArray | DefaultValue
+ExpandedIndustries-Enable | expandedindustries.setting.enable.name | expandedindustries.setting.enable.description |toggle.disabled, toggle.enabled | toggle.enabled

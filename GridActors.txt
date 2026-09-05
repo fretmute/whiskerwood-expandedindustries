@@ -1,0 +1,40 @@
+# Do not remove the column description line, it must be the first line of data.
+Name|supportedIndustryRecipes
+
+charcoalFurnace|(recipe.charcoalfurnace, expandedindustries.recipe.charcoalfurnacecharcoal, expandedindustries.recipe.charcoaltofuel)
+coalProcessor|(recipe.coalprocessor, recipe.salt, recipe.potashfertilizer, recipe.guanofertilizer, expandedindustries.recipe.sifterseasalt)
+bakery|(recipe.bakery,recipe.jampastry,expandedindustries.recipe.hardtack)
+laboratory|(recipe.salinesolution, recipe.soap, expandedindustries.recipe.seatotablesalt)
+
+# field count: 2
+
+## Vanilla grid actors and their default recipes follow. These can be uncommented (by removing the leading `#`) to inject the edited version.
+# lumbermill|(recipe.lumbermill)
+# fishingdock|(recipe.fishingdock)
+# brickmaker|(recipe.brickmaker,recipe.stone_cannonball)
+# fishery|(recipe.fishery,recipe.fishskewers)
+# stewery|(recipe.stewery,recipe.mushroomstew)
+# finekitchen|(recipe.finekitchen,recipe.heartymeal,recipe.fancymeal)
+# charcoalFurnace|(recipe.charcoalfurnace)
+# toolmaker|(recipe.scissors,recipe.firetongs,recipe.nailor)
+# oresmelter|(recipe.coppersmelter,recipe.bronzesmelter,recipe.goldsmelter)
+# coalProcessor|(recipe.coalprocessor,recipe.salt,recipe.potashfertilizer,recipe.guanofertilizer)
+# furnituremaker|(recipe.vises,recipe.furnituremaker,recipe.cannonframe)
+# tailor|(recipe.tailor,recipe.bedding)
+# bakery|(recipe.bakery,recipe.jampastry)
+# weaver|(recipe.simpleclothes,recipe.weaver)
+# oilpress|(recipe.fishoil)
+# mill|(recipe.wheatflour)
+# blastfurnace|(recipe.smelter,recipe.steelsmelter)
+# blacksmith|(recipe.ironpots,recipe.precisionscales,recipe.steelplates,recipe.iron_cannonball,recipe.bronze_cannonball)
+# sailmanufactory|(recipe.sail)
+# cannonfoundry|(recipe.bronzecannon)
+# cannery|(recipe.cannedberries,recipe.cannedfish,recipe.cannedmushroom)
+# laboratory|(recipe.salinesolution,recipe.soap)
+# apothecary|(recipe.medicine)
+# teaprocessor|(recipe.tea,recipe.finetea)
+# machinist|(recipe.machinery)
+# netter|(recipe.fishingnet)
+# spicegrinder|(recipe.spice)
+# flaxspinner|(recipe.rope,recipe.flax)
+# cottongin|(recipe.cotton)

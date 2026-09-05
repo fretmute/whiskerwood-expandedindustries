@@ -1,0 +1,13 @@
+﻿Name|useGridActorForLoc|Title|Description|demoLocked|isHidden|faction|subCategory|giftableInDemo|giftable|giftPool|researchable|scienceCost|researchTier|unlockedByDefault|childUnlocks|associatedGridActor|prerequisiteUnlocks|tierSortOrder|associatedRecipe|isQuestRelated
+
+expandedindustries.unlock.hardtack|false|resource.basicRations||false|false|home|techCategory.foodProduction|false|false|1|true|21|1|false||bakery||99|expandedindustries.recipe.hardtack|false
+
+expandedindustries.unlock.charcoalfurnacecharcoal|false|expandedindustries.resource.charcoal.name||false|false|home|techCategory.Utilities|false|false|1|true|21|1|false||charcoalFurnace||98|expandedindustries.recipe.charcoalfurnacecharcoal|false
+
+expandedindustries.unlock.charcoaltofuel|false|expandedindustries.unlock.charcoaltofuel.name|expandedindustries.unlock.charcoaltofuel.desc|false|false|home|techCategory.Utilities|false|false|1|true|21|1|false||charcoalFurnace||99|expandedindustries.recipe.charcoaltofuel|false
+
+expandedindustries.unlock.sifterseasalt|false|expandedindustries.resource.seasalt.name||false|false|home|techCategory.foodProduction|false|false|1|true|55|2|false||coalProcessor||98|expandedindustries.recipe.sifterseasalt|false
+
+expandedindustries.unlock.seatotablesalt|false|expandedindustries.unlock.seatotablesalt.name|expandedindustries.unlock.seatotablesalt.desc|false|false|home|techCategory.foodProduction|false|false|1|true|55|2|false||laboratory||99|expandedindustries.recipe.seatotablesalt|false
+
+# field count: 21
