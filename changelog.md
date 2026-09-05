@@ -2,6 +2,7 @@
 
 ### 0.1.0.0
 Renamed from `IndustryRecipes` to `ExpandedIndustries`.
+Added option to mod settings to enable/disable tech unlock requirement for custom recipes.
 This is the first release available on the Steam workshop.
 
 ### 0.0.5.0

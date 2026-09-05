@@ -1,2 +1,3 @@
 OptionId | DisplayName | Description | ValuesArray | DefaultValue
 ExpandedIndustries-Enable | expandedindustries.setting.enable.name | expandedindustries.setting.enable.description |toggle.disabled, toggle.enabled | toggle.enabled
+ExpandedIndustries-RequireUnlocks | expandedindustries.setting.requireunlocks.name | expandedindustries.setting.requireunlocks.description |toggle.disabled, toggle.enabled | toggle.enabled

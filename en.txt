@@ -3,12 +3,16 @@ Key | Value
 # Settings
 expandedindustries.setting.enable.name | Expanded Industries - Enable
 expandedindustries.setting.enable.description | Enables or disables the modification of industry recipes. Requires a restart to change.
+expandedindustries.setting.requireunlocks.name | Expanded Industries - Require Tech Unlocks
+expandedindustries.setting.requireunlocks.description | If enabled, research is required to unlock custom recipes.
 
 # Resources
 expandedindustries.resource.charcoal.name | Charcoal
 expandedindustries.resource.charcoal.desc | The burnt remains of logs. Can be processed into fuel or potash.
 expandedindustries.resource.seasalt.name | Sea Salt
 expandedindustries.resource.seasalt.desc | Salt processed from seawater. A poor substitute for rock salt.
+
+# Tech unlocks
 expandedindustries.unlock.seatotablesalt.name | Sea Salt to Table Salt
 expandedindustries.unlock.seatotablesalt.desc | Converts sea salt to table salt, suitable for use.
 expandedindustries.unlock.charcoaltofuel.name | Charcoal to Fuel
