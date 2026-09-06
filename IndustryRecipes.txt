@@ -1,13 +1,12 @@
 # Do not remove the column description line, it must be the first line of data.
-Name|recipeTime|powerPerWorker|outputMode|in1|inCt1|in2|inCt2|in3|inCt3|in4|inCt4|out1|outCt1|out2|outCt2|out3|outCt3|RequiredUnlock|pollutionPerSecond|hideUnlessUnlocked
+Name|recipeTime|powerPerWorker|outputMode|in1|inCt1|in2|inCt2|in3|inCt3|in4|inCt4|out1|outCt1|out2|outCt2|out3|outCt3|RequiredUnlock|pollutionPerSecond|hideUnlessUnlocked|workersStockOneCycleMax|shipToSpawn
 
 # Custom recipes
-expandedindustries.recipe.charcoalfurnacecharcoal|89|0|None|wood|2|None|0|None|0|None|0|expandedindustries.resource.charcoal|1|None|0|None|0|expandedindustries.unlock.charcoalfurnacecharcoal|40000|false
-expandedindustries.recipe.charcoaltofuel|89|0|None|expandedindustries.resource.charcoal|1|None|0|None|0|None|0|fuel|9|None|0|None|0|expandedindustries.unlock.charcoaltofuel|40000|false
-#expandedindustries.recipe.siftertablesalt|144|0|None|fluid_water|52|None|0|None|0|None|0|tablesalt|1|None|0|None|0|expandedindustries.unlock.siftertablesalt|0|false
-expandedindustries.recipe.sifterseasalt|99|0|None|fluid_water|52|None|0|None|0|None|0|expandedindustries.resource.seasalt|2|None|0|None|0|expandedindustries.unlock.sifterseasalt|0|false
-expandedindustries.recipe.seatotablesalt|144|0|None|expandedindustries.resource.seasalt|3|None|0|None|0|None|0|tablesalt|2|None|0|None|0|expandedindustries.unlock.seatotablesalt|0|false
-expandedindustries.recipe.hardtack|108|0|None|flour|2|fuel|1|tablesalt|1|None|0|basicRations|5|None|0|None|0|expandedindustries.unlock.hardtack|1000|false
+expandedindustries.recipe.charcoalfurnacecharcoal|89|0|None|wood|2|None|0|None|0|None|0|expandedindustries.resource.charcoal|1|None|0|None|0|expandedindustries.unlock.charcoalfurnacecharcoal|40000|false|false|None
+expandedindustries.recipe.charcoaltofuel|89|0|None|expandedindustries.resource.charcoal|1|None|0|None|0|None|0|fuel|9|None|0|None|0|expandedindustries.unlock.charcoaltofuel|40000|false|false|None
+expandedindustries.recipe.sifterseasalt|99|0|None|fluid_water|52|None|0|None|0|None|0|expandedindustries.resource.seasalt|2|None|0|None|0|expandedindustries.unlock.sifterseasalt|0|false|false|None
+expandedindustries.recipe.seatotablesalt|144|0|None|expandedindustries.resource.seasalt|3|None|0|None|0|None|0|tablesalt|2|None|0|None|0|expandedindustries.unlock.seatotablesalt|0|false|false|None
+expandedindustries.recipe.hardtack|108|0|None|flour|2|fuel|1|tablesalt|1|None|0|basicRations|5|None|0|None|0|expandedindustries.unlock.hardtack|1000|false|false|None
 
 # field count: 21
 
