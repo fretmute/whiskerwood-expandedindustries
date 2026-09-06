@@ -5,6 +5,8 @@ Renamed configuration files. Numbered versioning did not work out as I had hoped
 
 Added two new columns to my recipes that were evidently added in this patch and I didn't notice because of the nature of my PSV to table injector. My custom recipes are now consistent with the vanilla ones.
 
+Added simplifed Chinese localization. Thanks to Hansue for the support.
+
 ### 0.1.0.0
 Renamed from `IndustryRecipes` to `ExpandedIndustries`.
 Added option to mod settings to enable/disable tech unlock requirement for custom recipes.
