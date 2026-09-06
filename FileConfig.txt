@@ -7,4 +7,4 @@ GridActors.txt | IndustryRecipes.txt | Resources.txt | TechUnlocks.txt | Localiz
 # On the off chance that you want to add your own localizations, comma separate
 # and make the filename the language code, e.g. 'en.txt, de.txt' to add German.
 # It seems filenames can't have spaces, so beware.
-GridActors.0.1.0.0.txt | IndustryRecipes.0.1.0.0.txt | Resources.0.1.0.0.txt | TechUnlocks.0.1.0.0.txt | en.txt
+GridActors.0.1.0.0.txt | IndustryRecipes.0.1.0.0.txt | Resources.0.1.0.0.txt | TechUnlocks.0.1.0.0.txt | en.txt, zh.txt

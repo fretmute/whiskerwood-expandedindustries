@@ -1,0 +1,19 @@
+Key | Value
+
+# Settings
+expandedindustries.setting.enable.name | Expanded Industries - 启用
+expandedindustries.setting.enable.description | 启用或禁用Expanded Industries模组。重启游戏后生效。
+expandedindustries.setting.requireunlocks.name | Expanded Industries - 需要科技解锁
+expandedindustries.setting.requireunlocks.description | 若启用，则需要研究才能解锁自定义配方。
+
+# Resources
+expandedindustries.resource.charcoal.name | 木炭
+expandedindustries.resource.charcoal.desc | 焚烧原木的残留物。经过处理后可以获得燃料或钾碱。
+expandedindustries.resource.seasalt.name | 海盐
+expandedindustries.resource.seasalt.desc | 从海水中提取的盐。岩盐的劣质替代品。
+
+# Tech unlocks
+expandedindustries.unlock.seatotablesalt.name | 海盐制食盐
+expandedindustries.unlock.seatotablesalt.desc | 将海盐转化为可食用的食盐。
+expandedindustries.unlock.charcoaltofuel.name | 木炭制燃料
+expandedindustries.unlock.charcoaltofuel.desc | 将木炭转化为可使用的燃料。
